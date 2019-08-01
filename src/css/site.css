@@ -1,43 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body {
+.main-container {
     font-family: 'Roboto', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.top-buffer {
+.questionaire {
+    margin: 0;
     margin-top: 20px;
 }
 
-.navbar-icon {
-    width: 5em;
-    height: 5em;
+.left-head {
+    float: left;
 }
 
-.questionaire-section .jumbotron {
-    margin: 0;
-    background: rgba(9, 69, 95, 0.8);
-    color: white;
-    border-radius: 0 !important;
+.right-head {
+    float: right;
 }
 
-/*React apply activeClassName to <a> element, but Bootstrap active class is over <li> element*/
-
-.navbar .nav .active,
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    background: white !important;
-    color: #333 !important;
-}
-
-.avatar {
-    max-width: 80px
-}
-
-#navbar {
-    padding-left: 0px !important;
-}
-
-#header-title {
-    background-color: rgb(238, 235, 235);
+.divider {
+    border: 1px solid #333;
 }
